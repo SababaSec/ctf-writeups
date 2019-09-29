@@ -7,6 +7,6 @@ These are write-ups for CTFs we have participated in.
 
 ### 2019
 
-| Name                   | No. of writeups |
-|------------------------|-----------------|
-| [NACTF](2019/NACTF)    |        12       |
+| Name                   | No. of Write-Ups |
+|------------------------|:----------------:|
+| [NACTF](2019/NACTF)    |         12       |
