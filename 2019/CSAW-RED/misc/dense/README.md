@@ -10,7 +10,10 @@
 
 The contents of `message.txt` seem to be related to quantum computation, judging by the reference to "entagled pairs".
 
-The only hint we are given is the word "superdense". Googling that leads to the [Wikipedia article on Superdense coding](https://en.wikipedia.org/wiki/Superdense_coding), which tells us that **superdense coding is a quantum communication protocol for for transmitting 2 classical bits of information**.
+The only hint we are given is the word "superdense". Googling that leads to the [Wikipedia article on Superdense coding](https://en.wikipedia.org/wiki/Superdense_coding):
+
+![Superdense coding Wikipedia article screenshot](superdense_wikipedia.png "Superdense coding Wikipedia article")
+
 Since `message.txt` seems to describe the transmission of a message using this protocol, we can look at the [Preparation](https://en.wikipedia.org/wiki/Superdense_coding#Preparation) and [Encoding](https://en.wikipedia.org/wiki/Superdense_coding#Encoding) sections of the Wikipedia article in order to understand what was done in order to encode the message.
 
 The Preparation section on Wikipedia states that the protocol starts with the preparation of an entangled state, which is shared between the 2 parties. An example of such an entangled state is given. Interestingly enough, the example on Wikipedia is exactly the same as the entangled pair given in `message.txt`:
