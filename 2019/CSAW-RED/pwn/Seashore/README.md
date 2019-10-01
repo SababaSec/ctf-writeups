@@ -9,6 +9,6 @@
 
 ## Solution
 
-Running [`checksec`](https://en.kali.tools/all/?tool=206) on the binary shows that the NX bit (no-execute) is turned off, which means that we are allowed to execute code on the stack. So, we can use a stack overflow to inject shellcode which will execute `execve(/bin/sh)`.
+Running [`checksec`](https://en.kali.tools/all/?tool=206) on the binary shows that the NX bit (no-execute) is turned off, which means that we are allowed to execute code on the stack. So, we can use a stack overflow to inject shellcode which will run `execve("/bin/sh")`.
 
 [Python script](solver.py)
