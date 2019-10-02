@@ -14,5 +14,6 @@
 
 ## Solution
 
-[Python script](solver.py)
+We reverse the substitution and permutation tables and the order of steps in the encryption process in order to decode the message.
 
+[Python script](solver.py)

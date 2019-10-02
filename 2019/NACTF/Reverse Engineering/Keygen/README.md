@@ -13,4 +13,3 @@
 ## Solution
 
 [Python script](solver.py)
-

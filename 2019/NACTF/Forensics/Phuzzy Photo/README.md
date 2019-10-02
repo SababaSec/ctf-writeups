@@ -10,5 +10,6 @@ P.S. Joyce's friend said that part of the message is hidden in every 6th pixel
 
 ## Solution
 
-[Python script](solver.py)
+We extract every 6th pixel from the image if it is not white.
 
+[Python script](solver.py)

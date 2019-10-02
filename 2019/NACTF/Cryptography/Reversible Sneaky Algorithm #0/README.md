@@ -17,4 +17,3 @@ If you like python, try the pow() function!
 ## Solution
 
 [Python script](solver.py)
-
