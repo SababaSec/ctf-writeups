@@ -24,4 +24,3 @@ while not guessed:
     r.sendline('g')
     sendZeros()
     r.close()
-

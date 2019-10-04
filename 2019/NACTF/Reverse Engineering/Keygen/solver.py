@@ -26,4 +26,3 @@ def getFlag():
     
     print('nactf{' + flag + '}')
 getFlag()
-
