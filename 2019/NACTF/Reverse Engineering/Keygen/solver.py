@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
 target = 0x1371fcaacf98
 
@@ -26,3 +27,4 @@ def getFlag():
     
     print('nactf{' + flag + '}')
 getFlag()
+

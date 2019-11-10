@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 text = 'Hellothere everybody how are you doing today_long-plaintexts-are fun'
 cipherText = '2c4f4b5168535a574f57064853485e5b3f5c4856124e525402406942076b60521156565358440057615644693c5e554d530a605d4064525e445d6d521f534f5706495251'
 

