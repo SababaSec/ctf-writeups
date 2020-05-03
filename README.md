@@ -7,7 +7,8 @@ These are write-ups for CTFs we have participated in.
 
 ### 2019
 
-| Name                         | No. of Write-Ups |
-|------------------------------|:----------------:|
-| [NACTF](2019/NACTF)          |         12       |
-| [CSAW RED](2019/CSAW-RED)    |         7        |
+| Name                         						 					   | No. of Write-Ups |
+|--------------------------------------------------------------------------|:----------------:|
+| [NACTF](2019/NACTF)          						 					   |         12       |
+| [CSAW RED](2019/CSAW-RED)    						 					   |         7        |
+| [Reply Cyber Security Challenge](2019/Reply-Cyber-Security-Challenge)    |         4        |

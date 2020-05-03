@@ -1,6 +1,6 @@
 # NACTF 2019 Write-Ups
 
-[NACTF](https://www.nactf.com/) is a CTF competition hosted by Newark Academy's Computer Science Club.
+[NACTF](https://www.nactf.com/) is a CTF competition hosted by [Newark Academy](https://www.newarka.edu/)'s Computer Science Club.
 
 ## Index
 
