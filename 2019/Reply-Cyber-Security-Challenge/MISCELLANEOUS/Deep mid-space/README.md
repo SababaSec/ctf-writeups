@@ -2,9 +2,8 @@
 
 ## Problem
 
-> Suddenly, in the silence of the control room, a strange music can be heard, but none of the space team have put it on.
-
-> R-boy is on his way to find out what the heck is going on.
+> Suddenly, in the silence of the control room, a strange music can be heard, but none of the space team have put it on.  
+R-boy is on his way to find out what the heck is going on.
 
 ## Solution
 
@@ -20,8 +19,6 @@ We downloaded [stegano_midi](https://github.com/maxcruz/stegano_midi), a program
 
 Fortunately, we obtained a base-64-encoded string, which, when decoded, resulted in the flag.
 
----
-
-*Since the website for this challenge is not up anymore, we included the MIDI file along with this write-up.*
+*NB: Since the website for this challenge is not up anymore, we included the MIDI file along with this write-up.*
 
 [2001.mid](2001.mid)

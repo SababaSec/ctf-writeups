@@ -68,7 +68,7 @@ End If
 End Sub
 ```
 
-We can deduce that the macro takes an input from a text box and uses it to XOR the encrypted flag to obtain the first five letters from the key.
+We can deduce that the macro takes an input from a text box and uses it to XOR the encrypted flag. Since we know the flag format, we can use this knowledge to obtain the first five letters from the key.
 
 Using Python,
 
@@ -88,7 +88,7 @@ The first 5 characters of the key are `'Oppur'`. Judging by the Mars-themed chal
 >>> encrypted = [52, 54, 60, 40, 72, 64, 42, 35, 93, 26, 38, 110, 3, 47, 56, 26, 64, 1, 49, 33, 71, 38, 7, 25, 20, 92, 1, 9]
 >>> key = "Opportunity"
 >>> 
->>> for i in range(len(encrypt)):
+>>> for i in range(len(encrypted)):
 ...   print(chr(encrypted[i] ^ ord(key[i % len(key)])))
 ... 
 {FLG:4_M4n_!s_Wh4t_H3_Hid3s}
