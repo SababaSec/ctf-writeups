@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 maze = []
 
+
 def getNumber(start, direction):
     number = ''
     while getChar(start).isdigit():
@@ -8,8 +9,10 @@ def getNumber(start, direction):
         start = (start[0] + direction[0], start[1] + direction[1])
     return int(number)
 
+
 def getChar(pos):
     return maze[pos[0]][pos[1]]
+
 
 def solvePath(start):
     pos = (start[0] + 1, start[1])
@@ -66,6 +69,7 @@ def solvePath(start):
         char = getChar(pos)
 
     return ''
+
 
 with open('maze.txt', 'r') as f:
     lines = f.readlines()

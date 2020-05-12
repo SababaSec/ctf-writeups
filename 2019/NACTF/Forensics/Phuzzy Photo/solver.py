@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from PIL import Image
 
+
 im = Image.open('pic.png')
 out = Image.new('I', im.size, 0)
 

@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 from pwn import *
+
+
 guessed = False
+
 
 def sendZeros():
     r.recvuntil('> ')
@@ -14,6 +17,7 @@ def sendZeros():
             guessed = True
     print(r.recv().decode('L1'))
 
+
 while not guessed:
     r = remote('shell.2019.nactf.com', 31258)
     r.recvuntil('> ')
@@ -25,4 +29,3 @@ while not guessed:
     r.sendline('g')
     sendZeros()
     r.close()
-

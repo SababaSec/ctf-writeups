@@ -2,6 +2,7 @@
 chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
 target = 0x1371fcaacf98
 
+
 def getValue(char):
     value = ord(char)
     if value < 0x3a:
@@ -11,6 +12,7 @@ def getValue(char):
     else:
         value -= 0x47
     return value
+
 
 def getFlag():
     flag = ''
@@ -24,7 +26,8 @@ def getFlag():
             prev = c
         flag += prev
         total += getValue(prev)
-    
-    print('nactf{' + flag + '}')
-getFlag()
 
+    print('nactf{' + flag + '}')
+
+
+getFlag()

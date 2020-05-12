@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import re
 
+
 with open('message.txt', 'r') as f:
     table = {
         ('00', '+', '11'): '00',
@@ -16,4 +17,9 @@ with open('message.txt', 'r') as f:
         o = re.search('[-+]', line).group(0)
         binary += table[(b1, o, b2)]
 
-    print(''.join(chr(int(binary[i*8:i*8+8], 2)) for i in range(len(binary) // 8)))
+    print(
+        ''.join(
+            chr(int(binary[i * 8: i * 8 + 8], 2))
+            for i in range(len(binary) // 8)
+        )
+    )

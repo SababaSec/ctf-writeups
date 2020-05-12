@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from pwn import *
 
+
 elf = ELF('./safespace')
 # p = remote('pwn.chal.csaw.io', 1002)
 p = elf.process()

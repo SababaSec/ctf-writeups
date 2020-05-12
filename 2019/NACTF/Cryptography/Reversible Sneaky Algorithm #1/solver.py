@@ -5,6 +5,7 @@ c = 1709201989539843549093664587768138952210031438128031413732459058262611338051
 
 chars = 'abcdefghijklmnopqrstuvwxyz'
 
+
 def solve():
     for w in chars:
         for x in chars:
@@ -12,9 +13,10 @@ def solve():
                 for z in chars:
                     flag = 'nactf{' + w + x + y + z + '}'
                     c2 = pow(int(flag.encode('ascii').hex(), 16), e, n)
-                    
+
                     if c == c2:
                         print(flag)
                         return
+
 
 solve()
