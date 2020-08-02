@@ -21,7 +21,7 @@ Since we know the flag format for this CTF, `flag{.*}`, we can run `base64.b64en
 
 Using this knowledge, we can reverse the encryption process and decrypt `z` from right to left. Since the last integer in `z` is the XOR of the last and first character in the base 64 representation of the flag, we can XOR `90` with the last character in `z` to get the last character of the flag. This works because the XOR operation has the following property: `A ^ A = 0`, therefore `A ^ A ^ B = B`. Using the last character of the flag, we can get the second-last character, and so on.
 
-This would be the decrypt function:
+This is the decrypt function:
 
 ```py
 def dec(ciphertext):

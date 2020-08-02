@@ -14,5 +14,5 @@ HackerOne joins forces with John Hammond to deliver [H@cktivityCon CTF 2020](htt
 
 | Task                                                                | Points           |
 |---------------------------------------------------------------------|:----------------:|
-| [warmup](Cryptography/Tyrannosaurus%20Rex)                          |        100       |
-| [dummycrypt](Cryptography/Perfect%20XOR)                            |        100       |
+| [Tyrannosaurus Rex](Cryptography/Tyrannosaurus%20Rex)               |        100       |
+| [Perfect XOR](Cryptography/Perfect%20XOR)                           |        100       |
