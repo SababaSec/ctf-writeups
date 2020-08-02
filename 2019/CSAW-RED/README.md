@@ -8,7 +8,7 @@ The [CSAW Red Team Competition](https://csaw.engineering.nyu.edu/RED/faq) (RED) 
 
 | Task                                                                | Points           |
 |---------------------------------------------------------------------|:----------------:|
-| [SafeSpace](pwn/SafeSpace)                                          |        50        |
+| [SafeSpace](pwn/SafeSpace)                                          |         50       |
 | [Seashore](pwn/Seashore)                                            |        100       |
 | [Lunchtable Simulator](pwn/Lunchtable%20Simulator)                  |        150       |
 | [popcorn](pwn/popcorn)                                              |        250       |
@@ -17,7 +17,7 @@ The [CSAW Red Team Competition](https://csaw.engineering.nyu.edu/RED/faq) (RED) 
 
 | Task                                                                | Points           |
 |---------------------------------------------------------------------|:----------------:|
-| [warmup](crypto/warmup)                                             |        50        |
+| [warmup](crypto/warmup)                                             |         50       |
 | [dummycrypt](crypto/dummycrypt)                                     |        100       |
 
 ### misc
