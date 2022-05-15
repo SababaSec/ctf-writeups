@@ -2,7 +2,7 @@
 
 SababaSec is a cybersecurity team composed of [hb20007](https://github.com/hb20007) and [mrbzs](https://github.com/Mrbzs).
 
-These are write-ups for CTFs we have participated in.
+These are write-ups for CTFs we have participated in, as a team or individually.
 
 ## Index
 
@@ -19,3 +19,10 @@ These are write-ups for CTFs we have participated in.
 | Name                         						 					   | No. of Write-Ups |
 |--------------------------------------------------------------------------|:----------------:|
 | [H@cktivityCon CTF](2020/H@cktivityCon-CTF)          	                   |          3       |
+
+### 2022
+
+| Name                         						 					   | No. of Write-Ups |
+|--------------------------------------------------------------------------|:----------------:|
+| [Cyprus Cybersecurity Challenge](2022/CCSC)							   |          4       |
+      
