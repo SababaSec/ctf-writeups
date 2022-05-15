@@ -12,7 +12,7 @@ We were given a webpage with the following text:
 
 It was obvious that this was the representation of the faces of a 3x3 cube. In the beginning, I mistook the “O” characters for “0”s because they look narrow in this font. However, I then realized that there were some “0” characters which looked different. Once I became aware of this, I realized that we were talking about a Rubik’s cube. I had also missed a hint in the challenge title with the spelling of the word “cubic”.
 
-The first character in each pair of characters represents a color on the Rubik’s cube. So, this was a scrambled Rubik’s cube and solving it will probably reveal the flag. If I had a physical Rubik’s cube available, I could have put some stickers with the letters and solved it. But unfortunately I didn’t.
+The first character in each pair of characters represents a color on the Rubik’s cube. So, this was a scrambled Rubik’s cube and solving it will probably reveal the flag. If I had a physical Rubik’s cube available, I could have put some stickers on it with the letters and solved it. But I didn’t.
 
 I found a website called Rubik’s Cube Solver and gave it the Rubik’s cube colors: https://rubiks-cube-solver.com/solution.php?cube=0123616114334421651546235446552146315632453122354263562
 

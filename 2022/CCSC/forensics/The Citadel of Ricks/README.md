@@ -12,11 +12,11 @@ The HTTP packets caught my attention immediately because many of them were POST 
 
 ![Wireshark screenshot showing the filter](wireshark1.png)
 
-It turns out that a bunch of dots was being POSTed each time:
+It turned out that a bunch of dots was being POSTed each time:
 
-![Wireshark screenshot showing data POSTed](wireshark2.png)
+![Wireshark screenshot showing the data being POSTed](wireshark2.png)
 
-The content length of the data being POSTed quickly caught my attention. Being a CTF player, I know that the decimal representation of upper-case characters in ASCII lies in the range \[65&ndash;90\] and lower-case characters in the range \[97&ndash;122\]. Most of the numbers were in these ranges, so I figured that this has to be the flag.
+The content length of the data being POSTed quickly caught my attention. Being a CTF player, I know that the decimal representation of upper-case characters in ASCII lies in the range `\[65&ndash;90\]` and lower-case characters in the range `\[97&ndash;122\]`. Most of the numbers were in these ranges, so I figured that this has to be the flag.
 
 I wrote the following bash one-liner to get the flag:
 
