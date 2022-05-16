@@ -2,11 +2,13 @@
 
 ## Problem
 
+We were given a `pcapng` file with a packet dump.
+
 [portal.pcapng](portal.pcapng)
 
 ## Solution
 
-We were given a `pcapng` file with a packet dump. I opened the file with Wireshark and saw that it contains around 1200 TCP, HTTP and DNS packets.
+I opened the file with Wireshark and saw that it contains around 1200 TCP, HTTP and DNS packets.
 
 The HTTP packets caught my attention immediately because many of them were POST requests. I added the filter `http.request.method == "POST"` to see only the POST packets.
 
