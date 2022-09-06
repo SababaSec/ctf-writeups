@@ -22,7 +22,7 @@
 | [Reversible Sneaky Algorithm #0](Cryptography/Reversible%20Sneaky%20Algorithm%20%230)                                              |        125       |
 | [Super Duper AES](Cryptography/Super%20Duper%20AES)                                                                                |        250       |
 | [Reversible Sneaky Algorithm #1](Cryptography/Reversible%20Sneaky%20Algorithm%20%231)                                              |        275       |
-| [Dr. J's Group Test Randomizer: Board Problem #1](Cryptography/Dr.%20J's%20Group%20Test%20Randomizer%20Board%20Problem%20%231)    |        300       |
+| [Dr. J's Group Test Randomizer: Board Problem #1](Cryptography/Dr.%20J's%20Group%20Test%20Randomizer%20Board%20Problem%20%231)     |        300       |
 
 ### Forensics
 

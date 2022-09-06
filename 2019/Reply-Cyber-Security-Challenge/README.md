@@ -8,7 +8,7 @@ The [Reply Cyber Security Challenge](https://challenges.reply.com/tamtamy/challe
 
 | Task                                                                | Points           |
 |---------------------------------------------------------------------|:----------------:|
-| [Jumpyrinth](CODING/Jumpyrinth)    								  |        100       |
+| [Jumpyrinth](CODING/Jumpyrinth)                                     |        100       |
 
 ### CRYPTO
 

@@ -27,6 +27,7 @@ strings portal.pcapng | grep "data=" | tail -n +2 | grep -o '[adt=.]*' | awk '{p
 ```
 
 Explanation:
+
 - `strings portal.pcapng`: Prints all the printable-character strings in the `pcapng` file, one on each line.
 - `grep "data="`: Returns the lines that match the given pattern.
 - `tail -n +2`: Removes the first line, which was an empty message.

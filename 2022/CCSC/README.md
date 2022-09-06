@@ -20,5 +20,5 @@ The [Cyprus CyberSecurity Challenge (CCSC)](https://ccsc.org.cy/) is an annual C
 
 | Task                                                                | Difficulty       |
 |---------------------------------------------------------------------|:----------------:|
-| [Planet TC-39 #1](web/Planet%20TC-39%20%231)                          |        easy      |
-| [Planet TC-39 #2](web/Planet%20TC-39%20%232)                          |       medium     |
+| [Planet TC-39 #1](web/Planet%20TC-39%20%231)                        |        easy      |
+| [Planet TC-39 #2](web/Planet%20TC-39%20%232)                        |       medium     |
