@@ -13,7 +13,7 @@ with open('message.txt', 'r') as f:
     lines.pop(0)
     binary = ''
     for line in lines:
-        b1, b2 = re.findall('[0-9]{2}', line)
+        b1, b2 = re.findall('\d{2}', line)
         o = re.search('[-+]', line).group(0)
         binary += table[(b1, o, b2)]
 

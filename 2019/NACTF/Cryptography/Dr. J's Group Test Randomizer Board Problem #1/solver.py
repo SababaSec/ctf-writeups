@@ -5,9 +5,9 @@ from pwn import *
 guessed = False
 
 
-def sendZeros():
+def send_zeros():
     r.recvuntil('> ')
-    for i in range(4):
+    for _ in range(4):
         r.sendline('0')
         res = r.recv().decode('L1')
         print(res)
@@ -27,5 +27,5 @@ while not guessed:
         num = int(r.recvline().strip())
         r.recvuntil('> ')
     r.sendline('g')
-    sendZeros()
+    send_zeros()
     r.close()

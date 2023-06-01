@@ -12,7 +12,7 @@ It was obvious that this was the representation of the faces of a 3x3 cube. In t
 
 The first character in each pair of characters represents a color on the Rubik’s cube. So, this was a scrambled Rubik’s cube and solving it will probably reveal the flag. If I had a physical Rubik’s cube available, I could have put some stickers on it with the letters and solved it. But I didn’t.
 
-I found a website called Rubik’s Cube Solver and gave it the Rubik’s cube colors: https://rubiks-cube-solver.com/solution.php?cube=0123616114334421651546235446552146315632453122354263562
+I found a website called Rubik’s Cube Solver and gave it the Rubik’s cube colors: <https://rubiks-cube-solver.com/solution.php?cube=0123616114334421651546235446552146315632453122354263562>
 
 Every scrambled Rubik’s cube can be solved in 20 moves or less. Unfortunately, this one required the maximum of 20 moves. The good news was that the website had a “Flat View” which showed how each move looked like on a 2D representation of the cube, which was what we were given in this challenge.
 

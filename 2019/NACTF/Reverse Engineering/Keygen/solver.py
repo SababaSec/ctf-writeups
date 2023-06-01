@@ -3,7 +3,7 @@ chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
 target = 0x1371fcaacf98
 
 
-def getValue(char):
+def get_value(char):
     value = ord(char)
     if value < 0x3a:
         value += 0x4
@@ -14,20 +14,20 @@ def getValue(char):
     return value
 
 
-def getFlag():
+def get_flag():
     flag = ''
     total = 0
     for i in range(8):
         total *= 0x3e
         prev = ''
         for c in chars:
-            if (total + getValue(c)) * 0x3e ** (7 - i) > target:
+            if (total + get_value(c)) * 0x3e ** (7 - i) > target:
                 break
             prev = c
         flag += prev
-        total += getValue(prev)
+        total += get_value(prev)
 
     print('nactf{' + flag + '}')
 
 
-getFlag()
+get_flag()

@@ -10,7 +10,7 @@
 
 ## Hints
 
-> - Spencer used this video as inspiration for Super Duper AES: https://www.youtube.com/watch?v=DLjzI5dX8jc
+> - Spencer used this video as inspiration for Super Duper AES: <https://www.youtube.com/watch?v=DLjzI5dX8jc>
 
 ## Solution
 
