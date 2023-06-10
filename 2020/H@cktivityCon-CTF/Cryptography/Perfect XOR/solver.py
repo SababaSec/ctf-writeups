@@ -25,7 +25,7 @@ flag = 'flag{'
 cipher = base64.b64decode(cipher_b64).decode().split(",")
 
 i = 0
-while(i < len(cipher)):
+while i < len(cipher):
     flag += chr(int(cipher[i]) ^ perfect_numbers[i])
     i += 1
 
