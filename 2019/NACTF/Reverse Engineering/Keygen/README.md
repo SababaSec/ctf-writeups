@@ -8,7 +8,7 @@
 
 ## Hints
 
-> - Don't know where to start? Fire up a debugger, or look for cross-references to data you know something about.
+> - Don’t know where to start? Fire up a debugger, or look for cross-references to data you know something about.
 
 ## Solution
 

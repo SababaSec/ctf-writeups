@@ -6,13 +6,13 @@ HackerOne joins forces with John Hammond to deliver [H@cktivityCon CTF 2020](htt
 
 ### Binary Exploitation
 
-| Task                                                                | Points           |
-|---------------------------------------------------------------------|:----------------:|
-| [Pancakes](Binary%20Exploitation/Pancakes)                          |         75       |
+| Task                                       | Points |
+| ------------------------------------------ | :----: |
+| [Pancakes](Binary%20Exploitation/Pancakes) |   75   |
 
 ### Cryptography
 
-| Task                                                                | Points           |
-|---------------------------------------------------------------------|:----------------:|
-| [Tyrannosaurus Rex](Cryptography/Tyrannosaurus%20Rex)               |        100       |
-| [Perfect XOR](Cryptography/Perfect%20XOR)                           |        100       |
+| Task                                                  | Points |
+| ----------------------------------------------------- | :----: |
+| [Tyrannosaurus Rex](Cryptography/Tyrannosaurus%20Rex) |  100   |
+| [Perfect XOR](Cryptography/Perfect%20XOR)             |  100   |
